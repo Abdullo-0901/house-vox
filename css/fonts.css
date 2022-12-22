@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'Raleway';
+    src: url(../fonts/static/Raleway-Medium.ttf);   
+  }
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: 'PlayfireDisplay';
+    src: url(../fonts/statics/PlayfairDisplay-Medium.ttf);
+}

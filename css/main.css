@@ -1,0 +1,486 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242B33;
+}
+
+.logo{
+    background-image: url(../img/first.jpg);
+    background-size: cover;
+    
+    font-family: 'Raleway';  
+ 
+}
+.text-hover:hover{
+    color: #D4C17F;
+}
+
+.input-eror{
+    border-color:red;
+}
+input[type~="text"], input[type~="password"], input[type~="select"],input[type~="number"] ,button[type~="button"], textarea
+{
+    font-family:'Raleway';
+    text-align:center;
+    font-size: 16px;
+    
+}
+.font_relevay{
+    font-family:'Raleway';
+}
+.nav-link:hover{
+    border-bottom: 2px solid #D4C17F;
+    transform: scale(1.1) ;
+    transition: 0.5s ease-in;
+    color: #D4C17F!important;
+    
+    
+}
+
+.active{
+    background-color: rgb(27, 26, 26);
+    box-shadow: 0 0 .5rem rgba(0,0,0,.6); 
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+  z-index: 1;
+    background-color:#242B33;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger{
+    display:none;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.mt1{
+margin-top:195px;
+margin-bottom: 55px;
+font-size: 63px;
+}
+ul,li{
+    display: flex;
+}
+header a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 20px 15px;
+}
+.margin{
+    margin-right: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1000px){
+    .mb_bottom{
+        display: none;
+    }
+} 
+
+
+ .active_nav{
+    background-color:#242B33;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.6); 
+    width: 100%;
+
+}
+
+    
+/* =========================== */
+.center-text{
+    margin-top:10rem;
+}
+.first_text{
+    color:#D4C17F;
+    font-size: 28px;
+    margin-top: 244px!important;
+}
+
+.w-25px{
+    width: 353px;
+}
+.mt_5px{
+    margin-top:6rem;
+}
+.fs25px{
+    font-size:10px;
+    color:#FFFFFF;
+  }
+/* ===========containeri 1 but shud */
+
+.logo1{
+    background-color:#242B33; 
+    background-size: cover ;
+   max-height:100vh;
+   font-family: 'Roboto';
+}
+.two-one{
+    top: 150px;
+    right:125px;
+}
+.secont-one{
+    top: 330px;
+    left: 10px;
+}
+
+.four_pictures_top{
+    margin-top: 150px;
+}
+/* ======================3======================= */
+.Nashi_kvartira{
+font-family: Playfair Display;
+font-style:bold;
+font-size: 36px;
+Line-height: 48px;
+color:#D4C17F;
+}
+.card{
+border: none;
+
+}
+.card:hover{
+    transition:5s ease;
+transform: scale(1.05);
+}
+.rasmi_1_top{
+    bottom:10px;
+    left:50px;
+    color:#FFFFFF;
+
+}
+/* =================logo_3=================== */
+.logo_3{
+    background-image:url(../img/Rectangle.jpg);
+    background-size: cover;
+    height:100%;
+}
+
+
+
+.color_first_text{
+    color:#D4C17F;
+    margin-top: 130px;
+}
+.color_second_text{
+    color:#D4C17F;}
+.font_size_13px{
+    font-size: 13px;
+}
+.color-input1{
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+.color-input1:hover{
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+.width_btn{
+    width: 255px;
+    height: 50px;
+    margin: 0 auto;
+}
+/* ===========logo-4=========== */
+
+
+
+.logo-4{
+    background-color:#242B33; 
+    background-size: cover;
+    height:100%;
+}
+
+ iframe{
+    display: block;
+    margin: auto;
+  
+ } 
+.five{
+    top: 190px;
+    right:0;
+}
+/* ==============================================================logo5 =================================================================*/
+
+.logo-5{
+    background-color: #242B33;
+    background-size: cover;
+    height:100%;
+}
+iframe{
+  
+    display: block;
+    margin: auto;
+    width:80vw;
+    height: 55vh;
+    margin-top: 95px;
+ }
+.container_after{
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+ 
+.six{
+    left: 0;
+}
+.first_texts{
+    font-size:13.5px;
+}
+.btn_padding{
+padding-top: 4px;
+padding-bottom:4px;
+background-color:#D4C17F;
+color: white;
+}
+.btn_padding:hover{
+    color: rgb(223, 213, 213);
+}
+input{
+    background-color: lightsteelblue;
+    color: white;
+    font-size: 54px;
+}
+/* =====================================================footer==================================== */
+footer{
+    width: 100%;
+    background-color:#2D343C;
+    max-height: 100vh;
+}
+.nav-linkk{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+a:hover{
+    color:#D4C17F;
+}
+.color_oreng:hover{
+    color:#D4C17F;
+}
+ /* many media */
+ @media(max-width:1000px){
+    .first_nav{display: none; }
+        
+     ul{ display: none;}
+       
+       
+       
+    .mb_bottom{ position: fixed;}               
+      .mb_bottom ul{
+          
+          margin-top:0px;
+          flex-direction: column;
+          background-color:#242B33;
+          z-index: 1;
+      }
+      .mb_bottom ul a{
+          margin: 0 auto;
+          line-height: 35px;
+          text-decoration: none;
+          color:white;
+          font-size: 24px;
+      } 
+    .hamburger{
+        display: block;
+        cursor:pointer;
+        right: 49px;
+        top:19px;      
+     }
+    .hamburger .line1{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+        }
+    
+    .hamburger .line2{
+        width: 20px;
+        height: 3px;
+        background: white;
+        margin-left:8px;
+        }
+    .hamburger .line3{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+        }   
+      }
+  @media(max-width:768px){
+    .D_none{
+        display: none;
+    }
+    .btn_none{
+        display: none;
+    }
+    .logo-4{
+        height:325px;
+    }
+    iframe{
+        display: block;
+        margin: auto;
+        width: 281px;
+        height:220px;
+     }
+     .savoli1{
+        display: none;
+    }
+    footer{
+        width: 95%;
+        background-color:#2D343C;
+        height:850px;
+    }
+   .flex{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+   }   
+   .text_center_footer{
+    text-align: center;
+   }
+   .mt_249px{
+    margin-top: 249px;
+ }
+ }
+
+
+@media(max-width:365px){
+    .text_center_footer{
+        text-align: center;
+       }
+.logo{
+    z-index:1;
+}
+.logo-4{
+    height:31vh;
+ }
+}
+@media(min-width:768px){
+    .savoli2{
+        display: none;
+     }
+    .width_btn{
+        width: 255px!important;
+        height: 50px!important;
+        margin: 0 auto!important;
+    }
+    .btn_open{
+        display: none;
+    }   
+    .D_open{
+        display: none;
+    }
+ }
+
+ .container4{
+    width: 100%;
+    height:100vh;
+    max-width:500px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    position: relative;
+    width:100%;
+    height:300px;
+background: #eeeeee url(../img/rasmi1.png) center ;
+ background-repeat: no-repeat;  padding-top: 56.25%;
+
+
+ 
+
+}
+
+.img_home{
+    background: center;
+    background-repeat: no-repeat; 
+    background-size: 20%;
+   top: 34%;
+   right: 38%;
+    position: absolute;
+    cursor: pointer;
+    
+        
+}
+.video_iframe{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height:100%;
+}
+
+
+.PlayfireDisplay{
+    font-family: 'PlayfireDisplay';
+}
+.first:hover{
+    transition: 0.8s ease;
+    transform: scale(1.5);
+ }  
+    
+   p{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    
+   }
+   .succsec{
+    border-radius: 8px;
+    width: 239px;
+  text-align: center;
+    height: 53px;
+    border: 2px solid greenyellow;
+    box-shadow: 3px 4px 29px 3px rgba(0,255,8,0.71);
+    -webkit-box-shadow:3px 4px 29px 3px rgba(0,255,8,0.71);
+    -moz-box-shadow:3px 4px 29px 3px rgba(0,255,8,0.71);
+   }
+.eror{
+    height:53px;
+    border-radius: 8px;
+    width: 239px;
+text-align: center;
+    border: 2px solid tomato;
+    box-shadow: 3px 4px 29px 3px rgba(255,0,0,0.71);
+    -webkit-box-shadow:3px 4px 29px 3px rgba(255,0,0,0.71);
+    -moz-box-shadow:3px 4px 29px 3px rgba(0,255,8,0.71);
+}
+.line1-transform{
+    transform: translateY(9px) rotate(-45deg);
+ }
+ 
+ .line2-transform{
+    opacity:0;
+ }
+ .line3-transform{
+    transform: translateY(-9px) rotate(45deg);
+ }
